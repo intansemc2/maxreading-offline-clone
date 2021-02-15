@@ -35,6 +35,6 @@ console.log(`\n\n[INFO] Parsing done. Create JSON string ... \n\n`);
 let outputString = JSON.stringify(outputData);
 
 console.log(`\n\n[INFO] Write to file ... \n\n`);
-fs.writeFileSync('output_data_string.json', outputString, { encoding: 'utf-8' });
+fs.writeFileSync('output.json', outputString, { encoding: 'utf-8' });
 
 console.log(`\n\n[INFO] Done. \n\n`);
